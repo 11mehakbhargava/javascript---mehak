@@ -110,4 +110,11 @@ console.log(message2.charCodeAt())
 console.log(message2.split(' '))
 console.log(message2.split('a'))
 
-console.log(123);
+//=============================================
+// Template literal
+const fourDigits = '3434'
+console.log(`Last four digit of my account number is ` + fourDigits)//normal adding of string using + 
+console.log(`Last four digits are`.concat(fourDigits))//use of concat method
+console.log(`Last four digits of my account number is ${fourDigits.padStart(16, '*')}`)//template literal
+const priceInDollar = '345'
+console.log(`Bank account have $${priceInDollar}.`)
