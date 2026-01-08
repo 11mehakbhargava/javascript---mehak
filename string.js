@@ -110,5 +110,4 @@ console.log(message2.charCodeAt())
 console.log(message2.split(' '))
 console.log(message2.split('a'))
 
-
-//===================================================
+console.log(123);
